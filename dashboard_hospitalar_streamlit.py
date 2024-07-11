@@ -19,7 +19,7 @@ df = pd.DataFrame(data)
 # Título do aplicativo com logo
 col1, col2 = st.columns([1, 8])
 with col1:
-    st.image("logo.png", width=50)
+    st.image("logo_nqsp.jpg", width=50)
 with col2:
     st.title("NQSP - Gestão de Indicadores")
 
