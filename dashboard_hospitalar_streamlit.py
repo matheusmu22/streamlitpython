@@ -2,16 +2,16 @@ import pandas as pd
 import plotly.graph_objects as go
 import streamlit as st
 
-# Dados para os meses de janeiro a junho de 2024
+# Dados dos meses de janeiro a junho de 2024
 data = {
     'Month': ['Jan', 'Fev', 'Mar', 'Abr', 'Mai', 'Jun'],
-    'Occupancy Rate': [80, 85, 75, 90, 95, 88],
-    'Infection Rate': [0.21, 0.53, 0.47, 0.10, 0.41, 0],
-    'Mortality Rate': [1, 1.2, 1.1, 1.5, 1.3, 1.2],
-    'Satisfaction Rate': [90, 92, 85, 88, 91, 89],
-    'Vaginal Births': [150, 160, 145, 170, 165, 155],
-    'C-sections': [80, 85, 78, 90, 88, 84],
-    'Surgeries': [120, 130, 125, 140, 135, 128]
+    'Occupancy Rate': [56.14, 59.85, 62.22, 64.07, 0, 0],
+    'Infection Rate': [0.21, 0.53, 0.47, 0.10, 0.41, 0.71],
+    'Mortality Rate': [1.66, 1.05, 1.97, 2.10, 2.27, 1.90],
+    'Satisfaction Rate': [88.00, 87.62, 90.30, 0, 90.40, 79.88],
+    'Vaginal Births': [86, 102, 110, 87, 113, 89],
+    'C-sections': [139, 144, 133, 112, 135, 95],
+    'Surgeries': [586, 583, 607, 593, 608, 0]
 }
 
 df = pd.DataFrame(data)
@@ -24,7 +24,7 @@ with col2:
     st.title("NQSP - Gestão de Indicadores")
 
 metrics = ['Occupancy Rate', 'Infection Rate', 'Mortality Rate', 'Satisfaction Rate', 'Vaginal Births', 'C-sections', 'Surgeries']
-titles = ['Taxa de Ocupação', 'Taxa de Infecção', 'Taxa de Mortalidade', 'Taxa de Satisfação', 'Partos Vaginais', 'Partos Cesáreos', 'Quantidade de Cirurgias']
+titles = ['Taxa de Ocupação', 'Taxa de Infecção', 'Taxa de Mortalidade', 'Taxa de Satisfação', 'Partos Vaginais', 'Partos Cesáreos', 'Procedimentos Cirúrgicos']
 colors = ['#1f77b4', '#ff7f0e', '#2ca02c', '#d62728', '#9467bd', '#8c564b', '#e377c2']
 
 # Criando gráficos de colunas para cada métrica
