@@ -5,10 +5,10 @@ import streamlit as st
 # Dados dos meses de janeiro a junho de 2024
 data = {
     'Month': ['Jan', 'Fev', 'Mar', 'Abr', 'Mai', 'Jun'],
-    'Occupancy Rate': [56.14, 59.85, 62.22, 64.07, 0, 0],
+    'Occupancy Rate': [56.14, 59.85, 62.22, 64.07, 36.75, 0],
     'Infection Rate': [0.21, 0.53, 0.47, 0.10, 0.41, 0.71],
     'Mortality Rate': [1.66, 1.05, 1.97, 2.10, 2.27, 1.90],
-    'Satisfaction Rate': [88.00, 87.62, 90.30, 0, 90.40, 79.88],
+    'Satisfaction Rate': [88.00, 87.62, 90.30, 89.29, 90.40, 79.88],
     'Vaginal Births': [86, 102, 110, 87, 113, 89],
     'C-sections': [139, 144, 133, 112, 135, 95],
     'Surgeries': [586, 583, 607, 593, 608, 0]
