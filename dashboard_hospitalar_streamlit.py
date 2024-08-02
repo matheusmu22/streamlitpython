@@ -11,7 +11,7 @@ data = {
     'Satisfaction Rate': [88.00, 87.62, 90.30, 89.29, 90.40, 79.88],
     'Vaginal Births': [86, 102, 110, 87, 113, 89],
     'C-sections': [139, 144, 133, 112, 135, 95],
-    'Surgeries': [586, 583, 607, 593, 608, 0]
+    'Surgeries': [586, 583, 607, 593, 608, 463]
 }
 
 df = pd.DataFrame(data)
